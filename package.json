@@ -1,0 +1,16 @@
+{
+  "name": "@liangjiehappy/dsh-calc-datediff",
+  "version": "0.1.0",
+  "description": "算两个日期相差多少天/周/月/年，也可算「从今天起 N 天后是哪天」。纯本地计算，不联网。",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": ["lib", "cordis.patch.yml", "README.md"],
+  "keywords": ["dsh", "dsh-plugin", "calc", "calculator", "datediff", "计算器"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moldkey/dsh-calc-datediff.git"
+  },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "engines": { "dsh": ">=0.2.0-rc.2" }
+}
